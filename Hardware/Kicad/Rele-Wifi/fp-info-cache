@@ -1,4 +1,4 @@
-25594334346581689
+25596081415037778
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58372,6 +58372,13 @@ ESP-WROOM-32
 0
 64
 39
+EESTN5
+ESP32-WROOM-32.30pines
+
+
+0
+30
+30
 EESTN5
 ESP32-WROOM-32E
 
