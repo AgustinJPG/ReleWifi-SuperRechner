@@ -2861,7 +2861,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BF457"
+		(symbol "Transistor_BJT:MMBT2222A"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2878,7 +2878,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BF457"
+			(property "Value" "MMBT2222A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2887,7 +2887,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2898,7 +2898,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2908,7 +2908,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2917,7 +2917,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN HV High Voltage Transistor"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2926,7 +2926,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?126*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2935,7 +2935,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BF457_0_1"
+			(symbol "MMBT2222A_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -2972,7 +2972,7 @@
 					)
 				)
 			)
-			(symbol "BF457_1_1"
+			(symbol "MMBT2222A_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -3019,7 +3019,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3037,7 +3037,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3055,7 +3055,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3754,16 +3754,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 93.98 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1d1f80-a733-4e34-a733-8da1ffebf6d1")
-	)
-	(wire
-		(pts
 			(xy 200.66 97.79) (xy 201.93 97.79)
 		)
 		(stroke
@@ -4224,16 +4214,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 76.2) (xy 99.06 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "908fea22-f059-4abd-ae2d-53dc5e26525f")
-	)
-	(wire
-		(pts
 			(xy 36.83 82.55) (xy 36.83 83.82)
 		)
 		(stroke
@@ -4361,16 +4341,6 @@
 			(type default)
 		)
 		(uuid "b68222e4-6d47-472d-aa8f-e0e87420557b")
-	)
-	(wire
-		(pts
-			(xy 110.49 76.2) (xy 109.22 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b777fefc-db0c-49f7-93ac-b8743938572e")
 	)
 	(wire
 		(pts
@@ -4644,16 +4614,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 104.14 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f42b2e3a-398a-40fb-8e9c-0b372f6ad3e9")
-	)
-	(wire
-		(pts
 			(xy 209.55 91.44) (xy 220.98 91.44)
 		)
 		(stroke
@@ -4714,7 +4674,7 @@
 	)
 	(global_label "J5-NC"
 		(shape output)
-		(at 125.73 85.09 180)
+		(at 125.73 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4724,7 +4684,7 @@
 		)
 		(uuid "033d02f7-cd57-47e6-b127-5aa228edbb36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3948 85.09 0)
+			(at 116.3948 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5180,7 @@
 	)
 	(global_label "J4-COM"
 		(shape output)
-		(at 125.73 36.83 180)
+		(at 125.73 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5230,7 +5190,7 @@
 		)
 		(uuid "668937aa-3b20-426c-b6a4-19dfb515e1a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 36.83 0)
+			(at 114.9434 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5202,7 @@
 	)
 	(global_label "J10-COM"
 		(shape output)
-		(at 261.62 36.83 180)
+		(at 261.62 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5252,7 +5212,7 @@
 		)
 		(uuid "67757e06-5c30-469d-92e4-33f1101228ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6239 36.83 0)
+			(at 249.6239 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5224,7 @@
 	)
 	(global_label "J9-COM"
 		(shape output)
-		(at 261.62 26.67 180)
+		(at 261.62 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5274,7 +5234,7 @@
 		)
 		(uuid "6c10fe8f-ad6f-4b0d-946c-d7a1bd2eb33c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.8334 26.67 0)
+			(at 250.8334 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5268,7 @@
 	)
 	(global_label "J12-COM"
 		(shape output)
-		(at 261.62 87.63 180)
+		(at 261.62 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5318,7 +5278,7 @@
 		)
 		(uuid "7823cf42-7a87-4280-b43a-eae0edfe2e2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6239 87.63 0)
+			(at 249.6239 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5290,7 @@
 	)
 	(global_label "J9-NO"
 		(shape output)
-		(at 261.62 29.21 180)
+		(at 261.62 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5340,7 +5300,7 @@
 		)
 		(uuid "83001d54-51ff-4184-8046-c88d3814ef09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.2243 29.21 0)
+			(at 252.2243 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +5356,7 @@
 	)
 	(global_label "J2-COM"
 		(shape output)
-		(at 125.73 26.67 180)
+		(at 125.73 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5406,7 +5366,7 @@
 		)
 		(uuid "905c6b99-140d-4b65-a44e-b5c0e3ebbb6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 26.67 0)
+			(at 114.9434 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5400,7 @@
 	)
 	(global_label "J4-NC"
 		(shape output)
-		(at 125.73 34.29 180)
+		(at 125.73 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5450,7 +5410,7 @@
 		)
 		(uuid "957572c3-0354-48d4-b078-1593cb1515c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3948 34.29 0)
+			(at 116.3948 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5462,7 +5422,7 @@
 	)
 	(global_label "J3-COM"
 		(shape output)
-		(at 125.73 77.47 180)
+		(at 125.73 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5472,7 +5432,7 @@
 		)
 		(uuid "96d82960-7844-4207-be2a-f8f6e29cab9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 77.47 0)
+			(at 114.9434 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,7 +5488,7 @@
 	)
 	(global_label "J5-COM"
 		(shape output)
-		(at 125.73 87.63 180)
+		(at 125.73 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5538,7 +5498,7 @@
 		)
 		(uuid "a3eccf8b-8de0-4eb3-a5cb-4b51b051ad30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 87.63 0)
+			(at 114.9434 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5554,7 @@
 	)
 	(global_label "J2-NO"
 		(shape output)
-		(at 125.73 29.21 180)
+		(at 125.73 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5604,7 +5564,7 @@
 		)
 		(uuid "addcf332-59a4-43d3-9348-a6b8bce57e18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3343 29.21 0)
+			(at 116.3343 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5598,7 @@
 	)
 	(global_label "J12-NC"
 		(shape output)
-		(at 261.62 85.09 180)
+		(at 261.62 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5648,7 +5608,7 @@
 		)
 		(uuid "b8dc16fa-258a-47bc-8cef-31c362305bc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.0753 85.09 0)
+			(at 251.0753 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5642,7 @@
 	)
 	(global_label "J11-NO"
 		(shape output)
-		(at 261.62 80.01 180)
+		(at 261.62 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5692,7 +5652,7 @@
 		)
 		(uuid "cbe87af6-bc57-4d24-85b0-e258f52d7d22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.0148 80.01 0)
+			(at 251.0148 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +5664,7 @@
 	)
 	(global_label "J10-NC"
 		(shape output)
-		(at 261.62 34.29 180)
+		(at 261.62 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5714,7 +5674,7 @@
 		)
 		(uuid "ceae983f-4d20-4226-9b47-48579d217760")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.0753 34.29 0)
+			(at 251.0753 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5774,7 @@
 	)
 	(global_label "J3-NO"
 		(shape output)
-		(at 125.73 80.01 180)
+		(at 125.73 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5824,7 +5784,7 @@
 		)
 		(uuid "e1f610d0-3be5-414d-8645-24fcbd5fcd50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3343 80.01 0)
+			(at 116.3343 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5862,7 @@
 	)
 	(global_label "J11-COM"
 		(shape output)
-		(at 261.62 77.47 180)
+		(at 261.62 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5912,7 +5872,7 @@
 		)
 		(uuid "f9fb192a-d297-4ff8-b274-121fcc1f625f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6239 77.47 0)
+			(at 249.6239 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,82 +6117,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 207.01 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "091ebf26-89e0-40c2-8f21-f1801f983f31")
-		(property "Reference" "Q3"
-			(at 212.09 46.3549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 212.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 212.09 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 207.01 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 207.01 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "18c2e8f4-6858-474f-b3b9-0bbf35cda060")
-		)
-		(pin "2"
-			(uuid "576b0630-6cea-45d9-9998-bebd0fbad5d4")
-		)
-		(pin "1"
-			(uuid "3f8f040d-c7ca-46bf-ad3d-c56e05cf2dfd")
-		)
-		(instances
-			(project "Rele-Wifi"
-				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 209.55 33.02 270)
 		(unit 1)
@@ -6260,7 +6144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -6348,7 +6232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -6613,82 +6497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 72.39 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "173d0fe4-5ef0-4abb-bd0a-a38bd5c17840")
-		(property "Reference" "Q1"
-			(at 77.47 46.3549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 77.47 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 77.47 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 72.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 72.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "45b48a86-31ea-474d-ac0b-1899f1b30282")
-		)
-		(pin "2"
-			(uuid "cbc941ca-ddda-4004-927f-97c085aa4c5a")
-		)
-		(pin "1"
-			(uuid "db9bee87-ba2c-4c02-a03c-3f054b4b9b95")
-		)
-		(instances
-			(project ""
-				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 209.55 105.41 0)
 		(unit 1)
@@ -6909,6 +6717,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 72.39 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22d1f77c-46b2-42d5-888a-ba5d21c6e38e")
+		(property "Reference" "Q1"
+			(at 77.47 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 77.47 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 77.47 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e350a9ec-595a-489b-b7aa-73545e9788dc")
+		)
+		(pin "2"
+			(uuid "cc910d33-3a7f-487f-8ec8-f3f9ad266bfb")
+		)
+		(pin "1"
+			(uuid "fc94376f-530c-4adf-85f4-f646c968e551")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 54.61 0)
 		(unit 1)
@@ -7111,7 +6995,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BF457")
+		(lib_id "Transistor_BJT:MMBT2222A")
 		(at 207.01 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7119,9 +7003,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "310fd8eb-7ec7-4d38-820e-9a127a735f47")
+		(uuid "3884bd2e-0ca9-4739-a492-0498d1abc360")
 		(property "Reference" "Q4"
-			(at 212.09 97.1549 0)
+			(at 212.09 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,8 +7013,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 212.09 99.06 0)
+		(property "Value" "MMBT2222A"
+			(at 212.09 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +7033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -7159,7 +7043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -7168,14 +7052,14 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "36343992-276f-4d25-be51-34cac0941ef4")
+		(pin "3"
+			(uuid "9badf4b8-9331-4bff-872e-2ef39322a5a2")
 		)
 		(pin "2"
-			(uuid "19e8823a-aaa8-40b7-9761-20b1e0b5fb7a")
+			(uuid "126011fe-6c28-41af-8766-952d3f72c707")
 		)
-		(pin "3"
-			(uuid "0e17247f-9833-4184-8a57-1c7ae3f008be")
+		(pin "1"
+			(uuid "f88550c1-e224-4fc8-86db-eccc8d3585e0")
 		)
 		(instances
 			(project "Rele-Wifi"
@@ -7840,6 +7724,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 207.01 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f57131-586c-4f58-88e4-77d2ea0d7ee4")
+		(property "Reference" "Q3"
+			(at 212.09 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 212.09 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 212.09 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b3f42328-688b-4d6a-8ab0-62b4be4e9e56")
+		)
+		(pin "2"
+			(uuid "c4165ba1-4e47-4a64-9b92-7c3585dde113")
+		)
+		(pin "1"
+			(uuid "9fc8d90b-ed85-4850-8646-9fb09272cce5")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 266.7 87.63 180)
 		(unit 1)
@@ -8048,82 +8008,6 @@
 			(project "Rele-Wifi"
 				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
 					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 72.39 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68ca765d-9f62-4e86-a996-d08c140a3098")
-		(property "Reference" "Q2"
-			(at 77.47 97.1549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 77.47 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 77.47 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 72.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 72.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c8a6fbf-4136-44d1-a3be-538d834fafd3")
-		)
-		(pin "2"
-			(uuid "0ac66897-d8a2-4de4-a8bc-55d65b0934f6")
-		)
-		(pin "3"
-			(uuid "37572c90-7baf-49b6-b9b7-e1391d1fb280")
-		)
-		(instances
-			(project ""
-				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8540,6 +8424,82 @@
 			(project "Rele-Wifi"
 				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 72.39 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "864e5d98-2c3b-470c-be7e-80a4907f70fd")
+		(property "Reference" "Q2"
+			(at 77.47 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 77.47 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 77.47 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb7d6d26-7e7f-4a01-b1ae-bd71f03906a5")
+		)
+		(pin "2"
+			(uuid "57e2c8fb-c2ef-446f-9262-1eab68ef6705")
+		)
+		(pin "1"
+			(uuid "287e33fd-326b-4fe5-a836-68565bb67acc")
+		)
+		(instances
+			(project ""
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -9574,7 +9534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -10527,7 +10487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 209.55 83.82 0)
 			(effects
 				(font
