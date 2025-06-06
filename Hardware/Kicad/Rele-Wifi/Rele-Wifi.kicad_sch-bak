@@ -1934,6 +1934,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:L7805"
 			(pin_names
 				(offset 0.254)
@@ -2778,7 +2861,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:BF457"
+		(symbol "Transistor_BJT:MMBT2222A"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2795,7 +2878,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BF457"
+			(property "Value" "MMBT2222A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2804,7 +2887,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2815,7 +2898,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2825,7 +2908,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2834,7 +2917,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN HV High Voltage Transistor"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2843,7 +2926,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?126*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2852,7 +2935,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BF457_0_1"
+			(symbol "MMBT2222A_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy 0.635 0)
@@ -2889,7 +2972,7 @@
 					)
 				)
 			)
-			(symbol "BF457_1_1"
+			(symbol "MMBT2222A_1_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -2936,7 +3019,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2954,7 +3037,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2972,7 +3055,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3348,6 +3431,18 @@
 		(uuid 14062f5a-a840-43f3-b628-b77b9a4a2202)
 	)
 	(rectangle
+		(start 148.59 114.3)
+		(end 176.53 175.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 290b6692-bc67-4a97-8920-d62e7e77611a)
+	)
+	(rectangle
 		(start 80.01 151.13)
 		(end 148.59 175.26)
 		(stroke
@@ -3432,12 +3527,6 @@
 		(uuid "12ac8547-3b1e-412f-8601-ba9ef7b167e6")
 	)
 	(junction
-		(at 68.58 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "299046d7-239d-443a-9298-307b0db13fc7")
-	)
-	(junction
 		(at 99.06 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3468,12 +3557,6 @@
 		(uuid "7af80d8b-7f28-49b2-8261-ebe1329bc723")
 	)
 	(junction
-		(at 203.2 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87e915de-02f5-44a8-b7f9-75d0d7e8dcc2")
-	)
-	(junction
 		(at 74.93 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3484,18 +3567,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43d5975-86d5-4e59-9081-eaec2eef2fa0")
-	)
-	(junction
-		(at 203.2 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af63f616-095f-4249-8471-eb552df2f063")
-	)
-	(junction
-		(at 68.58 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8584720-5ebc-4243-8198-093893a636be")
 	)
 	(junction
 		(at 74.93 25.4)
@@ -3639,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 76.2) (xy 203.2 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b3fc111-7c41-49aa-8ac7-d5d40aae240c")
-	)
-	(wire
-		(pts
 			(xy 36.83 31.75) (xy 36.83 33.02)
 		)
 		(stroke
@@ -3659,16 +3720,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 76.2) (xy 93.98 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1d1f80-a733-4e34-a733-8da1ffebf6d1")
-	)
-	(wire
-		(pts
 			(xy 200.66 97.79) (xy 201.93 97.79)
 		)
 		(stroke
@@ -3676,6 +3727,16 @@
 			(type default)
 		)
 		(uuid "0efacff8-4b53-4d4f-85ee-78e1b5d2aeae")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 176.53 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6d3410-6e9d-40f9-897e-c484b6d27394")
 	)
 	(wire
 		(pts
@@ -3699,13 +3760,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 46.99) (xy 33.02 46.99)
+			(xy 59.69 38.1) (xy 59.69 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17ffd5e6-9d3b-4534-ae90-6beefae9f750")
+		(uuid "1551854d-e3b3-462d-838e-45286b0098b5")
 	)
 	(wire
 		(pts
@@ -3736,6 +3797,16 @@
 			(type default)
 		)
 		(uuid "205daa7a-c977-4ce6-8af2-c27abc6aea80")
+	)
+	(wire
+		(pts
+			(xy 204.47 40.64) (xy 209.55 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2111a3b6-01a1-4ee0-b7a7-423203ac23ed")
 	)
 	(wire
 		(pts
@@ -3839,13 +3910,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 92.71) (xy 194.31 76.2)
+			(xy 204.47 76.2) (xy 209.55 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36a4043c-2b79-470d-acc3-223490d14dac")
+		(uuid "354f2465-c6e5-4ff4-a4c8-865200e0a9a2")
 	)
 	(wire
 		(pts
@@ -3866,16 +3937,6 @@
 			(type default)
 		)
 		(uuid "38560eef-8295-49d4-a753-8a7edc82c1ca")
-	)
-	(wire
-		(pts
-			(xy 30.48 97.79) (xy 33.02 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a8291f5-7908-4521-ac75-f3fbba2056db")
 	)
 	(wire
 		(pts
@@ -3909,6 +3970,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 91.44) (xy 74.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e03b3f7-8aed-4c18-a948-ae29cd12282d")
+	)
+	(wire
+		(pts
 			(xy 176.53 92.71) (xy 171.45 92.71)
 		)
 		(stroke
@@ -3919,6 +3990,26 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 40.64) (xy 74.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4690187a-1162-45fe-9f60-c64b26541ca6")
+	)
+	(wire
+		(pts
+			(xy 30.48 46.99) (xy 41.91 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f234ec-ffc8-4a37-865b-a81753293970")
+	)
+	(wire
+		(pts
 			(xy 96.52 162.56) (xy 105.41 162.56)
 		)
 		(stroke
@@ -3926,16 +4017,6 @@
 			(type default)
 		)
 		(uuid "4b99df8a-dfde-4f55-954d-3703fbc5ec10")
-	)
-	(wire
-		(pts
-			(xy 203.2 24.13) (xy 203.2 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b9ead2b-301d-4c36-abb5-153946b5ce27")
 	)
 	(wire
 		(pts
@@ -3989,13 +4070,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 24.13) (xy 68.58 25.4)
+			(xy 30.48 97.79) (xy 41.91 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ac1cce5-4f1d-45f1-b938-655e86edf5dd")
+		(uuid "5e0ada7d-e44d-4c9c-95ef-637e56fbae42")
 	)
 	(wire
 		(pts
@@ -4039,26 +4120,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 25.4) (xy 74.93 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c6e901c-f3ae-4e6a-a2c9-ff17802676c8")
-	)
-	(wire
-		(pts
-			(xy 59.69 41.91) (xy 59.69 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "733fc5df-f0f6-4ff2-ad6f-e87e568cdeeb")
-	)
-	(wire
-		(pts
 			(xy 36.83 40.64) (xy 36.83 41.91)
 		)
 		(stroke
@@ -4066,16 +4127,6 @@
 			(type default)
 		)
 		(uuid "7460889a-440e-4f28-9fec-1f5188591278")
-	)
-	(wire
-		(pts
-			(xy 40.64 97.79) (xy 41.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78ca3cd6-a1f3-41a2-8b29-1989ecbe9892")
 	)
 	(wire
 		(pts
@@ -4096,6 +4147,16 @@
 			(type default)
 		)
 		(uuid "7bf839aa-18f3-4789-9489-c178164ce90e")
+	)
+	(wire
+		(pts
+			(xy 204.47 25.4) (xy 209.55 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9d0587-c61c-49f8-b55a-1c93a129a270")
 	)
 	(wire
 		(pts
@@ -4129,13 +4190,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 76.2) (xy 99.06 76.2)
+			(xy 59.69 88.9) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "908fea22-f059-4abd-ae2d-53dc5e26525f")
+		(uuid "9184c666-ef9a-46b8-88a3-7a4c8254ce92")
 	)
 	(wire
 		(pts
@@ -4156,16 +4217,6 @@
 			(type default)
 		)
 		(uuid "93ee501f-a1a1-4fd5-83ae-658aa05bfd34")
-	)
-	(wire
-		(pts
-			(xy 194.31 41.91) (xy 194.31 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96bc6984-dbe8-422e-8a7d-975a86d6a915")
 	)
 	(wire
 		(pts
@@ -4249,13 +4300,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 97.79) (xy 167.64 97.79)
+			(xy 194.31 88.9) (xy 194.31 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac1b8254-fbb1-4a73-8c54-50cc26d491a2")
+		(uuid "ab831b40-82cd-4fc2-85e6-164bfa2ff61f")
 	)
 	(wire
 		(pts
@@ -4269,13 +4320,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 109.22 76.2)
+			(xy 69.85 25.4) (xy 74.93 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b777fefc-db0c-49f7-93ac-b8743938572e")
+		(uuid "c6390cf7-498a-45a4-9445-f3bfc3743712")
 	)
 	(wire
 		(pts
@@ -4299,16 +4350,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 74.93) (xy 68.58 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7907834-b101-405f-8548-9ee44a524c83")
-	)
-	(wire
-		(pts
 			(xy 209.55 25.4) (xy 209.55 29.21)
 		)
 		(stroke
@@ -4326,6 +4367,16 @@
 			(type default)
 		)
 		(uuid "c902ddc1-f8a1-4a48-b6e5-6d6caf1d444f")
+	)
+	(wire
+		(pts
+			(xy 69.85 76.2) (xy 74.93 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfea50b-706c-4c4c-8a02-0e1b33bf0e0f")
 	)
 	(wire
 		(pts
@@ -4359,16 +4410,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 97.79) (xy 176.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0629916-0c3c-4f15-b966-4f69b9158202")
-	)
-	(wire
-		(pts
 			(xy 57.15 41.91) (xy 59.69 41.91)
 		)
 		(stroke
@@ -4376,26 +4417,6 @@
 			(type default)
 		)
 		(uuid "d0f70b79-4ad7-4718-8061-f9c7fbd39b87")
-	)
-	(wire
-		(pts
-			(xy 59.69 92.71) (xy 59.69 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d80c7642-9bf5-433e-bbcc-72eeffc7ee51")
-	)
-	(wire
-		(pts
-			(xy 194.31 25.4) (xy 203.2 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da0b27ba-2b59-40b9-8537-e69fc6596eb8")
 	)
 	(wire
 		(pts
@@ -4426,16 +4447,6 @@
 			(type default)
 		)
 		(uuid "dfb27538-b121-4ca0-867a-13c1a41ef8fb")
-	)
-	(wire
-		(pts
-			(xy 68.58 76.2) (xy 74.93 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01cd27f-eefa-45fb-a8fe-65f433067256")
 	)
 	(wire
 		(pts
@@ -4489,16 +4500,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 209.55 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb2e7e37-66b4-4dfc-b695-fd4589d60fa8")
-	)
-	(wire
-		(pts
 			(xy 101.6 165.1) (xy 101.6 167.64)
 		)
 		(stroke
@@ -4529,33 +4530,13 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 46.99) (xy 176.53 46.99)
+			(xy 194.31 38.1) (xy 194.31 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2abccf1-a4b7-49e7-ba2d-06049c355621")
-	)
-	(wire
-		(pts
-			(xy 165.1 46.99) (xy 167.64 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d8c8e4-6155-4b4b-b1ca-c88dcf4e0127")
-	)
-	(wire
-		(pts
-			(xy 105.41 76.2) (xy 104.14 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f42b2e3a-398a-40fb-8e9c-0b372f6ad3e9")
+		(uuid "f353320b-52a6-4a37-8368-5401beda3043")
 	)
 	(wire
 		(pts
@@ -4569,57 +4550,27 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 25.4) (xy 209.55 25.4)
+			(xy 204.47 91.44) (xy 209.55 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f8ce6534-f9d9-48bf-8ad0-36c26f532cb1")
+		(uuid "f4ec5122-271e-477e-880d-7526dcdeb238")
 	)
 	(wire
 		(pts
-			(xy 59.69 76.2) (xy 68.58 76.2)
+			(xy 165.1 97.79) (xy 176.53 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fb91865a-12ac-4c08-9301-4e1e01b87523")
-	)
-	(wire
-		(pts
-			(xy 40.64 46.99) (xy 41.91 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5493a7-eccb-4ff8-9d39-39b223f17950")
-	)
-	(wire
-		(pts
-			(xy 59.69 25.4) (xy 68.58 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe98ad9d-0c99-4444-b79f-af05eb842320")
-	)
-	(wire
-		(pts
-			(xy 203.2 74.93) (xy 203.2 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe0d081-34b1-44eb-a690-b7d25c5f65ac")
+		(uuid "fd87bbaa-7393-41ab-9f99-5727559ebbce")
 	)
 	(global_label "J5-NC"
 		(shape output)
-		(at 125.73 85.09 180)
+		(at 125.73 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4629,7 +4580,7 @@
 		)
 		(uuid "033d02f7-cd57-47e6-b127-5aa228edbb36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3948 85.09 0)
+			(at 116.3948 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5125,7 +5076,7 @@
 	)
 	(global_label "J4-COM"
 		(shape output)
-		(at 125.73 36.83 180)
+		(at 125.73 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5135,7 +5086,7 @@
 		)
 		(uuid "668937aa-3b20-426c-b6a4-19dfb515e1a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 36.83 0)
+			(at 114.9434 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5098,7 @@
 	)
 	(global_label "J10-COM"
 		(shape output)
-		(at 261.62 36.83 180)
+		(at 261.62 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5157,7 +5108,7 @@
 		)
 		(uuid "67757e06-5c30-469d-92e4-33f1101228ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6239 36.83 0)
+			(at 249.6239 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5120,7 @@
 	)
 	(global_label "J9-COM"
 		(shape output)
-		(at 261.62 26.67 180)
+		(at 261.62 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5179,7 +5130,7 @@
 		)
 		(uuid "6c10fe8f-ad6f-4b0d-946c-d7a1bd2eb33c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.8334 26.67 0)
+			(at 250.8334 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5213,7 +5164,7 @@
 	)
 	(global_label "J12-COM"
 		(shape output)
-		(at 261.62 87.63 180)
+		(at 261.62 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5223,7 +5174,7 @@
 		)
 		(uuid "7823cf42-7a87-4280-b43a-eae0edfe2e2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6239 87.63 0)
+			(at 249.6239 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +5186,7 @@
 	)
 	(global_label "J9-NO"
 		(shape output)
-		(at 261.62 29.21 180)
+		(at 261.62 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5245,7 +5196,7 @@
 		)
 		(uuid "83001d54-51ff-4184-8046-c88d3814ef09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.2243 29.21 0)
+			(at 252.2243 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5252,7 @@
 	)
 	(global_label "J2-COM"
 		(shape output)
-		(at 125.73 26.67 180)
+		(at 125.73 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5311,7 +5262,7 @@
 		)
 		(uuid "905c6b99-140d-4b65-a44e-b5c0e3ebbb6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 26.67 0)
+			(at 114.9434 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5296,7 @@
 	)
 	(global_label "J4-NC"
 		(shape output)
-		(at 125.73 34.29 180)
+		(at 125.73 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5355,7 +5306,7 @@
 		)
 		(uuid "957572c3-0354-48d4-b078-1593cb1515c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3948 34.29 0)
+			(at 116.3948 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5318,7 @@
 	)
 	(global_label "J3-COM"
 		(shape output)
-		(at 125.73 77.47 180)
+		(at 125.73 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5377,7 +5328,7 @@
 		)
 		(uuid "96d82960-7844-4207-be2a-f8f6e29cab9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 77.47 0)
+			(at 114.9434 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5433,7 +5384,7 @@
 	)
 	(global_label "J5-COM"
 		(shape output)
-		(at 125.73 87.63 180)
+		(at 125.73 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5443,7 +5394,7 @@
 		)
 		(uuid "a3eccf8b-8de0-4eb3-a5cb-4b51b051ad30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.9434 87.63 0)
+			(at 114.9434 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5499,7 +5450,7 @@
 	)
 	(global_label "J2-NO"
 		(shape output)
-		(at 125.73 29.21 180)
+		(at 125.73 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5509,7 +5460,7 @@
 		)
 		(uuid "addcf332-59a4-43d3-9348-a6b8bce57e18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3343 29.21 0)
+			(at 116.3343 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5494,7 @@
 	)
 	(global_label "J12-NC"
 		(shape output)
-		(at 261.62 85.09 180)
+		(at 261.62 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5553,7 +5504,7 @@
 		)
 		(uuid "b8dc16fa-258a-47bc-8cef-31c362305bc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.0753 85.09 0)
+			(at 251.0753 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5538,7 @@
 	)
 	(global_label "J11-NO"
 		(shape output)
-		(at 261.62 80.01 180)
+		(at 261.62 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5597,7 +5548,7 @@
 		)
 		(uuid "cbe87af6-bc57-4d24-85b0-e258f52d7d22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.0148 80.01 0)
+			(at 251.0148 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5560,7 @@
 	)
 	(global_label "J10-NC"
 		(shape output)
-		(at 261.62 34.29 180)
+		(at 261.62 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5619,7 +5570,7 @@
 		)
 		(uuid "ceae983f-4d20-4226-9b47-48579d217760")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.0753 34.29 0)
+			(at 251.0753 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5670,7 @@
 	)
 	(global_label "J3-NO"
 		(shape output)
-		(at 125.73 80.01 180)
+		(at 125.73 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5729,7 +5680,7 @@
 		)
 		(uuid "e1f610d0-3be5-414d-8645-24fcbd5fcd50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.3343 80.01 0)
+			(at 116.3343 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +5758,7 @@
 	)
 	(global_label "J11-COM"
 		(shape output)
-		(at 261.62 77.47 180)
+		(at 261.62 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5817,7 +5768,7 @@
 		)
 		(uuid "f9fb192a-d297-4ff8-b274-121fcc1f625f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.6239 77.47 0)
+			(at 249.6239 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6062,82 +6013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 207.01 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "091ebf26-89e0-40c2-8f21-f1801f983f31")
-		(property "Reference" "Q3"
-			(at 212.09 46.3549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 212.09 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 212.09 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 207.01 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 207.01 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "18c2e8f4-6858-474f-b3b9-0bbf35cda060")
-		)
-		(pin "2"
-			(uuid "576b0630-6cea-45d9-9998-bebd0fbad5d4")
-		)
-		(pin "1"
-			(uuid "3f8f040d-c7ca-46bf-ad3d-c56e05cf2dfd")
-		)
-		(instances
-			(project "Rele-Wifi"
-				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 209.55 33.02 270)
 		(unit 1)
@@ -6165,7 +6040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 209.55 33.02 0)
 			(effects
 				(font
@@ -6253,7 +6128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 74.93 33.02 0)
 			(effects
 				(font
@@ -6376,6 +6251,142 @@
 			(project "Rele-Wifi"
 				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 59.69 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5bd577-dbb4-4694-9361-620280065fb0")
+		(property "Reference" "#PWR018"
+			(at 59.69 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 59.69 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 59.69 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df3f84b4-924b-465c-87f3-1d75b35617d1")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 204.47 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "100bceeb-d2ff-4b96-bfc1-940baa51a3f4")
+		(property "Reference" "R11"
+			(at 207.01 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 207.01 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 202.692 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea865074-4435-49b6-bea3-6d7ade49793f")
+		)
+		(pin "2"
+			(uuid "9ecada49-2383-4f88-989e-2c7f45fd8907")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6512,82 +6523,6 @@
 			(project ""
 				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 72.39 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "173d0fe4-5ef0-4abb-bd0a-a38bd5c17840")
-		(property "Reference" "Q1"
-			(at 77.47 46.3549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 77.47 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 77.47 48.895 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 72.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 72.39 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "45b48a86-31ea-474d-ac0b-1899f1b30282")
-		)
-		(pin "2"
-			(uuid "cbc941ca-ddda-4004-927f-97c085aa4c5a")
-		)
-		(pin "1"
-			(uuid "db9bee87-ba2c-4c02-a03c-3f054b4b9b95")
-		)
-		(instances
-			(project ""
-				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6814,6 +6749,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 72.39 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22d1f77c-46b2-42d5-888a-ba5d21c6e38e")
+		(property "Reference" "Q1"
+			(at 77.47 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 77.47 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 77.47 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 72.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e350a9ec-595a-489b-b7aa-73545e9788dc")
+		)
+		(pin "2"
+			(uuid "cc910d33-3a7f-487f-8ec8-f3f9ad266bfb")
+		)
+		(pin "1"
+			(uuid "fc94376f-530c-4adf-85f4-f646c968e551")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 54.61 0)
 		(unit 1)
@@ -6907,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 127 162.56 0)
 			(effects
 				(font
@@ -7016,17 +7027,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 207.01 97.79 0)
+		(lib_id "Device:R")
+		(at 69.85 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "310fd8eb-7ec7-4d38-820e-9a127a735f47")
-		(property "Reference" "Q4"
-			(at 212.09 97.1549 0)
+		(uuid "2da99ca7-1fc9-4c2f-82e2-d8b777ef7f24")
+		(property "Reference" "R10"
+			(at 72.39 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,8 +7045,78 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 212.09 99.06 0)
+		(property "Value" "1k"
+			(at 72.39 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.072 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b87330a4-d281-49b5-9a38-362fde054156")
+		)
+		(pin "2"
+			(uuid "9a414ee4-12f9-48fc-ad71-c7c60b86e569")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 207.01 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3884bd2e-0ca9-4739-a492-0498d1abc360")
+		(property "Reference" "Q4"
+			(at 212.09 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 212.09 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -7064,7 +7145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 			(at 207.01 97.79 0)
 			(effects
 				(font
@@ -7073,14 +7154,14 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "36343992-276f-4d25-be51-34cac0941ef4")
+		(pin "3"
+			(uuid "9badf4b8-9331-4bff-872e-2ef39322a5a2")
 		)
 		(pin "2"
-			(uuid "19e8823a-aaa8-40b7-9761-20b1e0b5fb7a")
+			(uuid "126011fe-6c28-41af-8766-952d3f72c707")
 		)
-		(pin "3"
-			(uuid "0e17247f-9833-4184-8a57-1c7ae3f008be")
+		(pin "1"
+			(uuid "f88550c1-e224-4fc8-86db-eccc8d3585e0")
 		)
 		(instances
 			(project "Rele-Wifi"
@@ -7093,7 +7174,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 68.58 74.93 0)
+		(at 74.93 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7102,7 +7183,7 @@
 		(fields_autoplaced yes)
 		(uuid "38bb49b2-6914-4431-805d-9f1624adc7ba")
 		(property "Reference" "#PWR014"
-			(at 68.58 78.74 0)
+			(at 74.93 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7192,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 68.58 69.85 0)
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +7200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 74.93 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +7209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 74.93 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7137,7 +7218,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 68.58 74.93 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7412,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100"
 			(at 173.99 38.0999 0)
 			(effects
 				(font
@@ -7745,6 +7826,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 207.01 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56f57131-586c-4f58-88e4-77d2ea0d7ee4")
+		(property "Reference" "Q3"
+			(at 212.09 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 212.09 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 212.09 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 207.01 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b3f42328-688b-4d6a-8ab0-62b4be4e9e56")
+		)
+		(pin "2"
+			(uuid "c4165ba1-4e47-4a64-9b92-7c3585dde113")
+		)
+		(pin "1"
+			(uuid "9fc8d90b-ed85-4850-8646-9fb09272cce5")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 266.7 87.63 180)
 		(unit 1)
@@ -7959,84 +8116,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BF457")
-		(at 72.39 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68ca765d-9f62-4e86-a996-d08c140a3098")
-		(property "Reference" "Q2"
-			(at 77.47 97.1549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 77.47 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 77.47 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.pcpaudio.com/pcpfiles/transistores/BF457-8-9.pdf"
-			(at 72.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 160V Vce, High Voltage NPN Transistor, TO-126"
-			(at 72.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c8a6fbf-4136-44d1-a3be-538d834fafd3")
-		)
-		(pin "2"
-			(uuid "0ac66897-d8a2-4de4-a8bc-55d65b0934f6")
-		)
-		(pin "3"
-			(uuid "37572c90-7baf-49b6-b9b7-e1391d1fb280")
-		)
-		(instances
-			(project ""
-				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 171.45 46.99 0)
+		(at 204.47 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8045,23 +8126,25 @@
 		(fields_autoplaced yes)
 		(uuid "6cd6b63e-77c6-44d0-9d40-2ab0087523ca")
 		(property "Reference" "D5"
-			(at 169.8625 41.91 0)
+			(at 208.28 30.1624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 169.8625 44.45 0)
+			(at 208.28 32.0675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "EESTN5:Led_0805"
-			(at 171.45 46.99 0)
+			(at 204.47 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 46.99 0)
+			(at 204.47 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8079,7 +8162,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 171.45 46.99 0)
+			(at 204.47 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8171,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 46.99 0)
+			(at 204.47 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,8 +8404,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 204.47 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80cf4f32-4dc3-4986-9e81-28a036cd6872")
+		(property "Reference" "R12"
+			(at 207.01 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 207.01 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 202.692 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 204.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72d42118-83da-4678-8bc5-0246411fe259")
+		)
+		(pin "2"
+			(uuid "d710a418-59da-40b4-b297-b4314b12db7e")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81e42b98-818f-4cba-83ad-ad8420ff3c00")
+		(property "Reference" "H3"
+			(at 158.75 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.75 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 68.58 24.13 0)
+		(at 74.93 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,7 +8548,7 @@
 		(fields_autoplaced yes)
 		(uuid "839f562d-82de-4cbe-8ea6-396035762dce")
 		(property "Reference" "#PWR015"
-			(at 68.58 27.94 0)
+			(at 74.93 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8340,7 +8557,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 68.58 19.05 0)
+			(at 74.93 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 24.13 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8574,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 24.13 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8583,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 68.58 24.13 0)
+			(at 74.93 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,6 +8598,82 @@
 			(project "Rele-Wifi"
 				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 72.39 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "864e5d98-2c3b-470c-be7e-80a4907f70fd")
+		(property "Reference" "Q2"
+			(at 77.47 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 77.47 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 77.47 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 72.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb7d6d26-7e7f-4a01-b1ae-bd71f03906a5")
+		)
+		(pin "2"
+			(uuid "57e2c8fb-c2ef-446f-9262-1eab68ef6705")
+		)
+		(pin "1"
+			(uuid "287e33fd-326b-4fe5-a836-68565bb67acc")
+		)
+		(instances
+			(project ""
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8451,6 +8744,136 @@
 			(project ""
 				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89cbc053-5b42-4a2e-8f84-e47e9eeb6aa1")
+		(property "Reference" "H1"
+			(at 158.75 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.75 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 194.31 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b1e71f1-8b06-4c5e-87bc-aeb23195016a")
+		(property "Reference" "#PWR020"
+			(at 194.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 194.31 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb3982e2-f3a1-404f-8c66-f60c47fa5370")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8753,6 +9176,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 194.31 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ab1245c-b54b-4c99-9876-d1046c636e4d")
+		(property "Reference" "#PWR021"
+			(at 194.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 194.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "737bcb6a-3d90-4b2a-aaea-cdef3b5f501d")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_DPST_x2")
 		(at 110.49 162.56 0)
 		(unit 1)
@@ -8827,33 +9316,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 171.45 97.79 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac2b709d-3d2a-4ce3-ab30-6c3511d9cbc3")
-		(property "Reference" "D6"
-			(at 169.8625 92.71 0)
+		(uuid "a138b492-1d1f-450c-b159-a8fa209b2ab3")
+		(property "Reference" "H4"
+			(at 158.75 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 169.8625 95.25 0)
+		(property "Value" "MountingHole"
+			(at 158.75 168.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "EESTN5:Led_0805"
-			(at 171.45 97.79 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 156.21 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,7 +9353,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 97.79 0)
+			(at 156.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 204.47 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac2b709d-3d2a-4ce3-ab30-6c3511d9cbc3")
+		(property "Reference" "D6"
+			(at 208.28 80.9624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 208.28 82.8675 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EESTN5:Led_0805"
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8871,7 +9426,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 171.45 97.79 0)
+			(at 204.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +9435,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 171.45 97.79 0)
+			(at 204.47 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8988,7 +9543,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100"
 			(at 39.37 88.8999 0)
 			(effects
 				(font
@@ -9107,7 +9662,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 36.83 97.79 0)
+		(at 69.85 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9116,23 +9671,25 @@
 		(fields_autoplaced yes)
 		(uuid "b58d9eb4-7658-433a-a844-ebb8651263b1")
 		(property "Reference" "D4"
-			(at 35.2425 92.71 0)
+			(at 73.66 80.9624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 35.2425 95.25 0)
+			(at 73.66 82.8675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "EESTN5:Led_0805"
-			(at 36.83 97.79 0)
+			(at 69.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +9698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 97.79 0)
+			(at 69.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9150,7 +9707,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 36.83 97.79 0)
+			(at 69.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9716,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 36.83 97.79 0)
+			(at 69.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9741,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 36.83 46.99 0)
+		(at 69.85 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9193,23 +9750,25 @@
 		(fields_autoplaced yes)
 		(uuid "ba015386-089c-4ef0-83e2-4dbc2c972a19")
 		(property "Reference" "D3"
-			(at 35.2425 41.91 0)
+			(at 73.66 30.1624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "~"
-			(at 35.2425 44.45 0)
+			(at 73.66 32.0675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "EESTN5:Led_0805"
-			(at 36.83 46.99 0)
+			(at 69.85 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,7 +9777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 46.99 0)
+			(at 69.85 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9786,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 36.83 46.99 0)
+			(at 69.85 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9236,7 +9795,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 36.83 46.99 0)
+			(at 69.85 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -9342,6 +9901,76 @@
 			(project ""
 				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcaaa7dd-529d-452d-9a66-84fcac00960a")
+		(property "Reference" "R9"
+			(at 72.39 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 72.39 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.072 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b63f5f2-fab6-4327-8d4a-6647e9c47fc7")
+		)
+		(pin "2"
+			(uuid "d2685257-7cea-4288-b262-0cf9ea5dff56")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9501,7 +10130,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 203.2 24.13 0)
+		(at 209.55 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9510,7 +10139,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6451a4e-7798-4b82-aa34-391e157e248b")
 		(property "Reference" "#PWR016"
-			(at 203.2 27.94 0)
+			(at 209.55 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +10148,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 203.2 19.05 0)
+			(at 209.55 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,7 +10156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 24.13 0)
+			(at 209.55 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9536,7 +10165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 24.13 0)
+			(at 209.55 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9545,7 +10174,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 203.2 24.13 0)
+			(at 209.55 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9799,7 +10428,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100"
 			(at 173.99 88.8999 0)
 			(effects
 				(font
@@ -9845,6 +10474,72 @@
 			(project "Rele-Wifi"
 				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 59.69 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4e1ce3b-8a28-49e2-8814-1accccfb0c32")
+		(property "Reference" "#PWR019"
+			(at 59.69 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 59.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 59.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35d453fc-b8eb-46d8-9212-ecd9dbff4513")
+		)
+		(instances
+			(project "Rele-Wifi"
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9935,7 +10630,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100"
 			(at 39.37 38.0999 0)
 			(effects
 				(font
@@ -10240,7 +10935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 209.55 83.82 0)
 			(effects
 				(font
@@ -10373,8 +11068,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 156.21 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa3bbda3-4e36-4fdd-b5b5-6082723936d6")
+		(property "Reference" "H2"
+			(at 158.75 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 158.75 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 156.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 156.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/5108d551-307d-43c4-88ff-f27b804a4337"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
-		(at 203.2 74.93 0)
+		(at 209.55 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10383,7 +11142,7 @@
 		(fields_autoplaced yes)
 		(uuid "feee64e8-bb2b-4b54-9f77-464629053a02")
 		(property "Reference" "#PWR017"
-			(at 203.2 78.74 0)
+			(at 209.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,7 +11151,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 203.2 69.85 0)
+			(at 209.55 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10400,7 +11159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 74.93 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10409,7 +11168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 74.93 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10418,7 +11177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 203.2 74.93 0)
+			(at 209.55 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

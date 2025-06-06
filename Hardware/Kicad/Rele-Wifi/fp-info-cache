@@ -1,4 +1,4 @@
-25596081415037778
+25597830650559459
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58183,6 +58183,13 @@ SMT capacitor, 1206
 0
 2
 2
+EESTN5
+Caballerito
+
+
+0
+0
+0
 EESTN5
 Cable_1,5mm
 Cable 1,5mm
